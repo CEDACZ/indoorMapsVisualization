@@ -7,8 +7,21 @@
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+  <div class="map" id="map"></div>
+  <div class="buttons-2D">
+    <ion-button color="light" expand="block" fill="solid" (click)="hideVankovka()">Hide</ion-button>
+  <ion-button color="light" expand="block" fill="solid" (click)="showFloorOnly(0, false)">0</ion-button>
+  <ion-button color="light" expand="block" fill="solid" (click)="showFloorOnly(1, false)">1</ion-button>
+  <ion-button color="light" expand="block" fill="solid" (click)="showFloorOnly(2, false)">2</ion-button>
+  <ion-button color="light" expand="block" fill="solid" (click)="showFloorOnly(3, false)">3</ion-button>
   </div>
+  <div class="buttons">
+    <ion-button expand="block" fill="solid" (click)="hideVankovka()">Hide</ion-button>
+  <ion-button expand="block" fill="solid" (click)="showAllFloors(true)">All floors</ion-button>
+  <ion-button expand="block" fill="solid" (click)="showFloorOnly(0, true)">0</ion-button>
+  <ion-button expand="block" fill="solid" (click)="showFloorOnly(1, true)">1</ion-button>
+  <ion-button expand="block" fill="solid" (click)="showFloorOnly(2, true)">2</ion-button>
+  <ion-button expand="block" fill="solid" (click)="showFloorOnly(3, true)">3</ion-button>
+  </div>
+  
 </ion-content>

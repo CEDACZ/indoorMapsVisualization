@@ -1,5 +1,7 @@
 {
   "name": "vectorTilesTestApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Florenc
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="map" id="map"></div>
+  <div class="buttons-2D">
+    <ion-button color="light" expand="block" fill="solid" (click)="hideVankovka()">Hide</ion-button>
+    <ion-button color="light" expand="block" fill="solid" (click)="showAll()">All</ion-button>
+    <ion-button color="light" expand="block" fill="solid" (click)="showFloorOnly(-5, false)">-5</ion-button>
+    <ion-button color="light" expand="block" fill="solid" (click)="showFloorOnly(-4, false)">-4</ion-button>
+    <ion-button color="light" expand="block" fill="solid" (click)="showFloorOnly(-3, false)">-3</ion-button>
+    <ion-button color="light" expand="block" fill="solid" (click)="showFloorOnly(-2, false)">-2</ion-button>
+    <ion-button color="light" expand="block" fill="solid" (click)="showFloorOnly(-1, false)">-1</ion-button>
+    <ion-button color="light" expand="block" fill="solid" (click)="showFloorOnly(0, false)">0</ion-button>
+  </div>
+  
+</ion-content>

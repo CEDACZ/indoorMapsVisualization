@@ -1,1 +1,25 @@
+.noScroll {
+  overflow: hidden;
+}
 
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.buttons-2D{
+  position: absolute;
+    display: flex;
+    bottom: 56px;
+    right: 12px;
+}
+.buttons{
+  position: absolute;
+    display: flex;
+    bottom: 12px;
+    right: 12px;
+}
+ion-button{
+
+  --border-radius: 24px;
+}
